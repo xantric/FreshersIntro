@@ -662,6 +662,15 @@
         "name": "NewSprite4",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "grass.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "grass.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -732,7 +741,7 @@
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":24,\"tileHeight\":24,\"dimX\":26,\"dimY\":8,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[338,339,340,341,342,343,344,345,346,347,348,349,350,442,352,353,442,442,442,442,442,442,442,442,442,442],[364,365,366,367,368,369,370,448,448,448,448,448,442,377,378,379,380,381,382,383,384,442,442,442,388,389],[390,391,392,393,394,395,396,448,448,448,448,448,396,403,404,405,406,407,408,409,410,442,442,442,450,415],[416,417,418,419,420,421,396,396,396,396,396,396,396,429,430,442,442,442,442,442,436,442,442,442,492,441],[442,442,444,442,442,442,442,442,442,442,452,442,442,442,442,442,442,442,442,442,442,442,442,442,492,-1],[468,469,470,470,470,473,442,442,442,442,442,442,442,442,442,442,442,442,442,442,442,442,442,442,492,-1],[494,494,494,497,498,499,500,501,502,502,504,505,506,507,508,509,510,511,512,513,515,515,516,517,518,-1],[520,520,520,523,524,525,526,527,528,528,530,531,532,533,534,535,536,537,538,539,540,541,542,543,544,-1]]}]}"
+              "value": "{\"tileWidth\":24,\"tileHeight\":24,\"dimX\":26,\"dimY\":8,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[338,339,340,341,342,343,344,345,346,347,348,349,350,442,352,353,442,442,442,442,442,442,442,442,442,442],[364,365,366,367,368,369,370,448,448,448,448,448,442,377,378,379,380,381,382,383,384,442,442,442,388,389],[390,391,392,393,394,395,112,448,448,448,448,448,112,403,404,405,406,407,408,409,410,442,442,442,450,415],[416,417,418,419,420,421,112,112,112,112,112,112,112,429,430,442,442,442,442,442,436,442,442,442,492,441],[442,442,444,442,442,442,442,442,442,442,452,442,442,442,442,442,442,442,442,442,442,442,442,442,492,-1],[468,469,470,470,470,473,442,442,442,442,442,442,442,442,442,442,442,442,442,442,442,442,442,442,492,-1],[494,494,494,497,498,499,500,501,502,502,504,505,506,507,508,509,510,511,512,513,515,515,516,517,518,-1],[520,520,520,523,524,525,526,527,528,528,530,531,532,533,534,535,536,537,538,539,540,541,542,543,544,-1]]}]}"
             }
           ],
           "initialVariables": []
@@ -843,7 +852,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 64,
+          "height": 72,
           "keepRatio": true,
           "layer": "",
           "name": "NewSprite4",
@@ -937,6 +946,150 @@
           "x": 252,
           "y": 564,
           "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "f20c6d39-a21f-4e9c-a905-7ce38ca0c293",
+          "width": 0,
+          "x": 144,
+          "y": 576,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "57bd2ba5-c375-4883-b47c-7c5a2408641a",
+          "width": 0,
+          "x": 144,
+          "y": 600,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "d4f8dbf5-de8a-4f57-9010-65d1d979b930",
+          "width": 0,
+          "x": 168,
+          "y": 600,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "4bd4d6ee-b9fd-48ae-8cff-19be58a45931",
+          "width": 0,
+          "x": 192,
+          "y": 600,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "4719c427-a9ba-4a4a-bd18-fb64bf6e2d33",
+          "width": 0,
+          "x": 216,
+          "y": 600,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "18b32bda-8e63-4f7e-aad1-98ed87a3dfc4",
+          "width": 0,
+          "x": 240,
+          "y": 600,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "b9944e09-fd74-4ae9-8f09-38fbf39f3658",
+          "width": 0,
+          "x": 264,
+          "y": 600,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "c5115d9a-8cdd-4451-94b5-098412905100",
+          "width": 0,
+          "x": 288,
+          "y": 600,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "2c9403bb-c2af-4029-a025-56dbb4a7d977",
+          "width": 0,
+          "x": 288,
+          "y": 576,
+          "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1635,21 +1788,6 @@
           ]
         },
         {
-          "assetStoreId": "",
-          "name": "NewTileMap2",
-          "type": "TileMap::SimpleTileMap",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "atlasImage": "Mobile - Diamond Rush - Angkor Wat Level 1.png",
-            "rowCount": 21,
-            "columnCount": 26,
-            "tileSize": 24,
-            "tilesWithHitBox": "397,398,399,400,401,424,425,426,427,428,422,423"
-          }
-        },
-        {
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "NewSprite3",
@@ -1817,6 +1955,66 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "grass.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 24
+                          },
+                          {
+                            "x": 0,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -1832,7 +2030,7 @@
             "objectName": "NewSprite4"
           },
           {
-            "objectName": "NewTileMap2"
+            "objectName": "NewSprite"
           },
           {
             "objectName": "NewSprite3"
@@ -1909,6 +2107,34 @@
                 "NewSprite3",
                 "NewSprite2",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Player2",
+                "NewSprite3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "NewSprite3",
+                "NewSprite",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "NewSprite4"
               ]
             }
           ]
@@ -2042,12 +2268,13 @@
           "conditions": [
             {
               "type": {
-                "inverted": true,
-                "value": "TopDownMovementBehavior::IsMoving"
+                "value": "TopDownMovementBehavior::Speed"
               },
               "parameters": [
                 "Player2",
-                "TopDownMovement"
+                "TopDownMovement",
+                "=",
+                "0"
               ]
             }
           ],
@@ -2116,6 +2343,92 @@
               "parameters": [
                 "NewSprite2",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Grass"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player2",
+                "NewSprite",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "NewSprite"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "NewSprite",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "NewSprite",
+                "NewSprite3",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityY"
+              },
+              "parameters": [
+                "NewSprite3",
+                "Physics2",
+                "=",
+                "0"
               ]
             }
           ]
