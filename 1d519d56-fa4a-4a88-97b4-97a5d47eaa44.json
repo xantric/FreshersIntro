@@ -636,7 +636,7 @@
         "alwaysLoaded": false,
         "file": "assets/rock.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/rock.png\",\"extension\":\".png\"}",
         "name": "rock.png",
         "smoothed": false,
         "userAdded": true,
@@ -649,7 +649,7 @@
         "alwaysLoaded": false,
         "file": "diamond.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"diamond.png\",\"extension\":\".png\"}",
         "name": "diamond.png",
         "smoothed": false,
         "userAdded": false
@@ -667,8 +667,26 @@
         "alwaysLoaded": false,
         "file": "grass.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"grass.png\",\"extension\":\".png\"}",
         "name": "grass.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "snake.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "snake.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Diamond2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diamond2.png",
         "smoothed": false,
         "userAdded": true
       }
@@ -702,7 +720,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.6337626779315348,
+        "zoomFactor": 7.51155098995434,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -749,7 +767,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
+          "depth": 0.9999999999999999,
           "height": 24,
           "keepRatio": true,
           "layer": "",
@@ -759,23 +777,6 @@
           "x": 264,
           "y": 576,
           "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 24,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite3",
-          "persistentUuid": "debdd893-ae9d-4b33-a95d-aeb6f0281a68",
-          "width": 24,
-          "x": 180,
-          "y": 564,
-          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -851,99 +852,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 72,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite4",
-          "persistentUuid": "b3be03d8-ba61-4a35-95ac-2a79944c17c4",
-          "width": 624,
-          "x": 0,
-          "y": 672,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite4",
-          "persistentUuid": "f2dcb237-fd54-4db1-bf32-c3c9231f8e3e",
-          "width": 624,
-          "x": 0,
-          "y": 480,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 0,
-          "height": 24,
+          "height": 22,
           "keepRatio": true,
           "layer": "",
           "name": "NewSprite3",
           "persistentUuid": "34e9a8c8-f943-4758-821b-045c49d662d1",
-          "width": 24,
+          "width": 22,
           "x": 276,
-          "y": 564,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 24,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite3",
-          "persistentUuid": "2d9bbec4-62cf-411d-aa4d-df3b48e5106b",
-          "width": 24,
-          "x": 204,
-          "y": 564,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 24,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite3",
-          "persistentUuid": "957d785c-fdb7-4dbc-bc3f-6c4b146b06cd",
-          "width": 24,
-          "x": 228,
-          "y": 564,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 24,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite3",
-          "persistentUuid": "5572d67d-8e66-4159-b9dd-4ffc7b57e1eb",
-          "width": 24,
-          "x": 252,
           "y": 564,
           "zOrder": 15,
           "numberProperties": [],
@@ -1093,6 +1009,74 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 22,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite3",
+          "persistentUuid": "e74a6566-2fbc-4883-98ba-233444696d06",
+          "width": 22,
+          "x": 252,
+          "y": 564,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 22,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite3",
+          "persistentUuid": "8a2aa9b0-9d50-4b1f-b016-3e837406ddc6",
+          "width": 22,
+          "x": 228,
+          "y": 564,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 22,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite3",
+          "persistentUuid": "2d54db1f-4c3a-4c75-a05e-cb06f8f93d33",
+          "width": 22,
+          "x": 204,
+          "y": 564,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 22,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite3",
+          "persistentUuid": "87c8b9a5-4ecd-4d6f-94b2-1d89f194c3a3",
+          "width": 22,
+          "x": 180,
+          "y": 564,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -1102,17 +1086,22 @@
           "name": "Player2",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "folded": true,
+              "name": "dir",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "move",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
-            {
-              "name": "PixelPerfectTopDownMovement",
-              "type": "PixelPerfectMovement::PixelPerfectTopDownMovement",
-              "TopDownMovement": "TopDownMovement",
-              "PixelSize": 24,
-              "OffsetX": 0,
-              "OffsetY": 0
-            },
             {
               "name": "SmoothCamera",
               "type": "SmoothCamera::SmoothCamera",
@@ -1164,21 +1153,6 @@
               "OldX": 9000.000000007454,
               "OldY": 9000.000000007454,
               "IsCalledManually": false
-            },
-            {
-              "name": "TopDownMovement",
-              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-              "acceleration": 900,
-              "allowDiagonals": false,
-              "angleOffset": 0,
-              "angularMaxSpeed": 180,
-              "customIsometryAngle": 30,
-              "deceleration": 900,
-              "ignoreDefaultControls": false,
-              "maxSpeed": 90,
-              "movementAngleOffset": 0,
-              "rotateObject": false,
-              "viewpoint": "TopDown"
             }
           ],
           "animations": [
@@ -1208,19 +1182,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 2,
+                            "x": 1,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 15,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 15,
                             "y": 15
                           },
                           {
-                            "x": 2,
+                            "x": 1,
                             "y": 15
                           }
                         ]
@@ -1256,19 +1230,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 2,
+                            "x": 1,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 15,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 15,
                             "y": 15
                           },
                           {
-                            "x": 2,
+                            "x": 1,
                             "y": 15
                           }
                         ]
@@ -1292,19 +1266,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 2,
+                            "x": 1,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 15,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 15,
                             "y": 15
                           },
                           {
-                            "x": 2,
+                            "x": 1,
                             "y": 15
                           }
                         ]
@@ -1328,19 +1302,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 2,
+                            "x": 1,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 15,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 15,
                             "y": 15
                           },
                           {
-                            "x": 2,
+                            "x": 1,
                             "y": 15
                           }
                         ]
@@ -1376,19 +1350,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 2,
+                            "x": 1,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 15,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 15,
                             "y": 15
                           },
                           {
-                            "x": 2,
+                            "x": 1,
                             "y": 15
                           }
                         ]
@@ -1412,19 +1386,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 2,
+                            "x": 1,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 15,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 15,
                             "y": 15
                           },
                           {
-                            "x": 2,
+                            "x": 1,
                             "y": 15
                           }
                         ]
@@ -1448,19 +1422,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 2,
+                            "x": 1,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 15,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 15,
                             "y": 15
                           },
                           {
-                            "x": 2,
+                            "x": 1,
                             "y": 15
                           }
                         ]
@@ -1496,19 +1470,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 2,
+                            "x": 1,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 15,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 15,
                             "y": 15
                           },
                           {
-                            "x": 2,
+                            "x": 1,
                             "y": 15
                           }
                         ]
@@ -1532,19 +1506,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 2,
+                            "x": 1,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 15,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 15,
                             "y": 15
                           },
                           {
-                            "x": 2,
+                            "x": 1,
                             "y": 15
                           }
                         ]
@@ -1568,19 +1542,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 2,
+                            "x": 1,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 15,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 15,
                             "y": 15
                           },
                           {
-                            "x": 2,
+                            "x": 1,
                             "y": 15
                           }
                         ]
@@ -1616,19 +1590,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 2,
+                            "x": 1,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 15,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 15,
                             "y": 15
                           },
                           {
-                            "x": 2,
+                            "x": 1,
                             "y": 15
                           }
                         ]
@@ -1652,19 +1626,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 2,
+                            "x": 1,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 15,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 15,
                             "y": 15
                           },
                           {
-                            "x": 2,
+                            "x": 1,
                             "y": 15
                           }
                         ]
@@ -1688,19 +1662,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 2,
+                            "x": 1,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 15,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 15,
                             "y": 15
                           },
                           {
-                            "x": 2,
+                            "x": 1,
                             "y": 15
                           }
                         ]
@@ -1724,7 +1698,7 @@
             "rowCount": 21,
             "columnCount": 26,
             "tileSize": 24,
-            "tilesWithHitBox": "468,469,470,471,472,473,499,500,501,502,503,504,505,506,507,508,509,510,511,512,513,514,515,516,517,518,466,492,416,417,418,419,420,369,370,344,345,346,347,348,349,350,377,403,429,352,378,353,379,404,405,406,407,408,409,410,436,380,381,382,383,384,388,414,389,415,441,430,444,440,421,395"
+            "tilesWithHitBox": "468,469,470,471,472,473,499,500,501,502,503,504,505,506,507,508,509,510,511,512,513,514,515,516,517,518,466,492,416,417,418,419,420,369,370,344,345,346,347,348,349,350,377,403,429,352,378,353,379,404,405,406,407,408,409,410,436,380,381,382,383,384,388,414,389,415,441,430,444,440,421,395,545,494,495,496,520,521,522,523,524,525,526,527,529,530,531,532,533,534,535,536,537,538,539,540,541,542,543,544,528"
           }
         },
         {
@@ -1738,11 +1712,12 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "diamond",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
@@ -1788,7 +1763,7 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
+          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "NewSprite3",
           "type": "Sprite",
@@ -1810,103 +1785,19 @@
               "shapeOffsetY": 0,
               "polygonOrigin": "Center",
               "vertices": [],
-              "density": 1,
-              "friction": 0.3,
+              "density": 0,
+              "friction": 0,
               "restitution": 0,
-              "linearDamping": 0.1,
-              "angularDamping": 0.1,
-              "gravityScale": 1,
+              "linearDamping": 0,
+              "angularDamping": 0,
+              "gravityScale": 0.5,
               "layers": 1,
               "masks": 1
             }
           ],
           "animations": [
             {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "rock.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 12,
-                        "y": 12
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 0
-                          },
-                          {
-                            "x": 22,
-                            "y": 0
-                          },
-                          {
-                            "x": 22,
-                            "y": 24
-                          },
-                          {
-                            "x": 2,
-                            "y": 24
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "NewSprite4",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Physics2",
-              "type": "Physics2::Physics2Behavior",
-              "bodyType": "Static",
-              "bullet": false,
-              "fixedRotation": false,
-              "canSleep": true,
-              "shape": "Box",
-              "shapeDimensionA": 0,
-              "shapeDimensionB": 0,
-              "shapeOffsetX": 0,
-              "shapeOffsetY": 0,
-              "polygonOrigin": "Center",
-              "vertices": [],
-              "density": 1,
-              "friction": 0.3,
-              "restitution": 0.1,
-              "linearDamping": 0.1,
-              "angularDamping": 0.1,
-              "gravityScale": 1,
-              "layers": 1,
-              "masks": 1
-            }
-          ],
-          "animations": [
-            {
-              "name": "NewSprite4",
+              "name": "rock",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1916,12 +1807,12 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite4",
+                      "image": "Diamond2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 11,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -1936,16 +1827,16 @@
                             "y": 0
                           },
                           {
-                            "x": 64,
+                            "x": 22,
                             "y": 0
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 22,
+                            "y": 22
                           },
                           {
                             "x": 0,
-                            "y": 64
+                            "y": 22
                           }
                         ]
                       ]
@@ -2015,6 +1906,97 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite5",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "dir",
+              "type": "number",
+              "value": 1
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 24,
+              "shapeDimensionB": 7,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": -1,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "snake.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 24
+                          },
+                          {
+                            "x": 0,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -2024,10 +2006,10 @@
             "objectName": "Player2"
           },
           {
-            "objectName": "NewTileMap"
+            "objectName": "NewSprite5"
           },
           {
-            "objectName": "NewSprite4"
+            "objectName": "NewTileMap"
           },
           {
             "objectName": "NewSprite"
@@ -2131,10 +2113,245 @@
             },
             {
               "type": {
-                "value": "Cache"
+                "value": "Physics2::LinearVelocityX"
               },
               "parameters": [
-                "NewSprite4"
+                "NewSprite5",
+                "Physics2",
+                "=",
+                "50"
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "NewSprite5",
+                "NewTileMap",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Player2",
+                "dir",
+                "!=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player2",
+                "move",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Player2",
+                "dir",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Player2",
+                "-",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Player2",
+                "dir",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Player2",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Player2",
+                "dir",
+                "=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "Player2",
+                "-",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Player2",
+                "dir",
+                "=",
+                "4"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "Player2",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Player2",
+                "move",
+                "=",
+                "23"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "Player2",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player2",
+                "dir",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player2",
+                "move",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player2",
+                "Animation",
+                "=",
+                "\"Idle\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Player2",
+                "=",
+                "round(Player2.X()/24) * 24"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "Player2",
+                "=",
+                "round(Player2.Y()/24) * 24"
               ]
             }
           ]
@@ -2156,16 +2373,37 @@
           "conditions": [
             {
               "type": {
-                "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+                "value": "NumberObjectVariable"
               },
               "parameters": [
                 "Player2",
-                "TopDownMovement",
-                "\"Left\""
+                "dir",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
               ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player2",
+                "dir",
+                "=",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -2184,16 +2422,37 @@
           "conditions": [
             {
               "type": {
-                "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+                "value": "NumberObjectVariable"
               },
               "parameters": [
                 "Player2",
-                "TopDownMovement",
-                "\"Right\""
+                "dir",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Right"
               ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player2",
+                "dir",
+                "=",
+                "2"
+              ]
+            },
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -2212,16 +2471,37 @@
           "conditions": [
             {
               "type": {
-                "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+                "value": "NumberObjectVariable"
               },
               "parameters": [
                 "Player2",
-                "TopDownMovement",
-                "\"Up\""
+                "dir",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Up"
               ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player2",
+                "dir",
+                "=",
+                "3"
+              ]
+            },
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -2240,16 +2520,37 @@
           "conditions": [
             {
               "type": {
-                "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+                "value": "NumberObjectVariable"
               },
               "parameters": [
                 "Player2",
-                "TopDownMovement",
-                "\"Down\""
+                "dir",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Down"
               ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player2",
+                "dir",
+                "=",
+                "4"
+              ]
+            },
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -2259,34 +2560,6 @@
                 "Animation",
                 "=",
                 "\"RunDown\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "TopDownMovementBehavior::Speed"
-              },
-              "parameters": [
-                "Player2",
-                "TopDownMovement",
-                "=",
-                "0"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ChangeSprite"
-              },
-              "parameters": [
-                "Player2",
-                "=",
-                "0"
               ]
             }
           ]
@@ -2333,7 +2606,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "0.5"
+                "0.75"
               ]
             },
             {
@@ -2389,7 +2662,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "0.5"
+                "0.75"
               ]
             },
             {
@@ -2504,6 +2777,88 @@
             {
               "type": {
                 "value": "Physics2::LinearVelocityY"
+              },
+              "parameters": [
+                "NewSprite3",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "NewSprite5",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "NewSprite5",
+                "dir",
+                "*",
+                "-1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "NewSprite5",
+                "Physics2",
+                "=",
+                "50*NewSprite5.dir"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Movement"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "NewTileMap",
+                "NewSprite3",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::GravityScale"
               },
               "parameters": [
                 "NewSprite3",
@@ -2653,10 +3008,6 @@
           "scaleY": 100
         },
         {
-          "name": "PixelPerfectTopDownMovement",
-          "type": "PixelPerfectMovement::PixelPerfectTopDownMovement"
-        },
-        {
           "name": "Resizable",
           "type": "ResizableCapability::ResizableBehavior"
         },
@@ -2667,10 +3018,6 @@
         {
           "name": "SmoothCamera",
           "type": "SmoothCamera::SmoothCamera"
-        },
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
         }
       ]
     }
