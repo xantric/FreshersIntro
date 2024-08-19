@@ -2006,6 +2006,16 @@
                 "NewSprite",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Player2",
+                "NewSprite3",
+                ""
+              ]
             }
           ]
         },
@@ -2682,6 +2692,17 @@
             {
               "type": {
                 "value": "Physics2::GravityScale"
+              },
+              "parameters": [
+                "NewSprite3",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityY"
               },
               "parameters": [
                 "NewSprite3",
