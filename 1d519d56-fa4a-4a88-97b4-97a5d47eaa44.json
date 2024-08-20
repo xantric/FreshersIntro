@@ -720,7 +720,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 7.51155098995434,
+        "zoomFactor": 5.045368932378299,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2055,7 +2055,7 @@
                 "Player2",
                 "move",
                 "+",
-                "1"
+                "2"
               ]
             }
           ]
@@ -2083,7 +2083,7 @@
               "parameters": [
                 "Player2",
                 "-",
-                "1"
+                "2"
               ]
             }
           ]
@@ -2111,7 +2111,7 @@
               "parameters": [
                 "Player2",
                 "+",
-                "1"
+                "2"
               ]
             }
           ]
@@ -2139,7 +2139,7 @@
               "parameters": [
                 "Player2",
                 "-",
-                "1"
+                "2"
               ]
             }
           ]
@@ -2167,7 +2167,7 @@
               "parameters": [
                 "Player2",
                 "+",
-                "1"
+                "2"
               ]
             }
           ]
@@ -2182,7 +2182,7 @@
               "parameters": [
                 "Player2",
                 "move",
-                "=",
+                ">=",
                 "23"
               ]
             }
